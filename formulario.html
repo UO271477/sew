@@ -1,25 +1,38 @@
 <!DOCTYPE HTML>
 <html lang="es">
-    <head>
-        <!-- Datos que describen el documento -->
-        <meta name="author" content="Carlos Cesáreo"/>
-        <meta name="description" content="Formulario de Apple"/>
-        <meta name="keywords" content="Dispositivos, Apple, iPhone, iPad, iMac, Comprar"/>
-        <meta charset="UTF-8" />
-        <!--link rel="stylesheet" type="text/css" href="estilo.css" /-->
-        <title>SEW.P1</title>
-    </head>
-
-    <body>
+<head>
+    <!-- Datos que describen el documento -->
+    <meta name="author" content="Carlos Cesáreo"/>
+    <meta name="description" content="Formulario de Apple"/>
+    <meta name="keywords" content="Dispositivos, Apple, iPhone, iPad, iMac, Comprar"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=1.0"/>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <title>SEW.P1</title>
+</head>
+<body>
+<main>
         <!-- Datos con el contenido que aparece en el navegador -->
+    <header>
         <h1> Compra tu nuevo dispositivo electrónico de Apple</h1> 
 
+        <nav>
+            <a title="Pagina principal" accesskey="H" tabindex="1" href="index.html" >Inicio</a> |
+            <a title="Compra productos" accesskey="C" tabindex="2" href="formulario.html" >Comprar dispositivos  </a> |
+            <a title="Charla"           accesskey="D" tabindex="3" href="convenciones.html" >Mayor discurso de Steve Jobs  </a> |
+            <a title="Dispositivos"     accesskey="I" tabindex="4" href="invenciones.html" >Sus inventos  </a> |
+            <a title="Ventas"           accesskey="V" tabindex="5" href="ventas.html">Ranking de ventas</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Rellena este formulario con sus datos para comprar su artículo</h2>
+        
         <form>
             <p><label>Nombre:    <input></label></p>
             <p><label>Apellidos: <input></label></p>
             <p><label>DNI:       <input></label></p>
-            <p><label>Telephone: <input type=tel></label></p>
-            <p><label>Email address: <input type=email></label></p>
+            <p><label>Teléfono: <input type=tel></label></p>
+            <p><label>Correo: <input type=email></label></p>
             <p><label>Dirección: <input></label></p>
             <fieldset>
                 <legend> ¿Que dispositivo de Apple desea comprar? </legend>
@@ -36,6 +49,8 @@
              <p><label> <input type=radio name=size/> Efectivo (Recoger en tienda) </label></p> 
             </fieldset>
             <p><button>Confirmar pedido</button></p>
-           </form>
-    </body>
- </html>
+        </form>
+    </section>
+</main>
+</body>
+</html>
